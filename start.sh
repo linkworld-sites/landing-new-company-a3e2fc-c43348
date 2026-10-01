@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 cd "$(dirname "$0")"
-exec python3 -m http.server 8080
+pip install -r requirements.txt
+PORT=${PORT:-8080} python3 server.py

@@ -8,3 +8,5 @@ _goals/
 output/
 .DS_Store
 *.log
+.mcp.json
+__pycache__/
