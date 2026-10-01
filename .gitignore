@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+dist/
+.env*
+_worktrees/
+_goals/
+output/
+.DS_Store
+*.log
