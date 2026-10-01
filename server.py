@@ -9,7 +9,7 @@ from flask import Flask, jsonify, request, send_from_directory
 ROOT = Path(__file__).resolve().parent
 app = Flask(__name__, static_folder=None)
 
-MAX_MESSAGE_LEN = 2000
+MAX_MESSAGE_LEN = 8000
 MAX_HISTORY_TURNS = 8
 
 SYSTEM_PROMPT = """You are the support assistant embedded on the CodeForge marketing website.
